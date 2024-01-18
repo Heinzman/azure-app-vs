@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'elreg-az-app-vs2'
-          slot-name: 'Staging'
+          #slot-name: 'Staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3AF3DB78525491484416BAB0927FD6D }}
