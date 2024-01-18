@@ -5,7 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-app-vs", "azure-app-vs.csproj", "{E2A64097-3EB5-4EE6-8EE7-4A495923FACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.AzureCosmosDb.Demo", "..\Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{153542C8-AFF5-4980-B2A1-FB4660360A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo", "..\Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{153542C8-AFF5-4980-B2A1-FB4660360A45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.StorageAccount.Demo", "..\Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{B8F39E47-3E0D-4A15-8FE5-90F09700E8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusSender.Demo", "..\Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{687E6627-F8C3-49E0-B347-BB3F567A467E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusReceiver.Demo", "..\Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{FC0DB7DF-8ABB-4D69-91C4-51A4AE1A8D86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{153542C8-AFF5-4980-B2A1-FB4660360A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{153542C8-AFF5-4980-B2A1-FB4660360A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{153542C8-AFF5-4980-B2A1-FB4660360A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F39E47-3E0D-4A15-8FE5-90F09700E8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F39E47-3E0D-4A15-8FE5-90F09700E8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F39E47-3E0D-4A15-8FE5-90F09700E8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F39E47-3E0D-4A15-8FE5-90F09700E8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687E6627-F8C3-49E0-B347-BB3F567A467E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687E6627-F8C3-49E0-B347-BB3F567A467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687E6627-F8C3-49E0-B347-BB3F567A467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687E6627-F8C3-49E0-B347-BB3F567A467E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0DB7DF-8ABB-4D69-91C4-51A4AE1A8D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0DB7DF-8ABB-4D69-91C4-51A4AE1A8D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0DB7DF-8ABB-4D69-91C4-51A4AE1A8D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0DB7DF-8ABB-4D69-91C4-51A4AE1A8D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
